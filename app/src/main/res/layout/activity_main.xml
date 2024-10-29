@@ -60,17 +60,6 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
-        android:layout_width="253dp"
-        android:layout_height="227dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:hint="Inserte texto"
-        android:inputType="textMultiLine"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="284dp" />
-
-    <EditText
         android:id="@+id/ldNota"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -78,6 +67,12 @@
         android:hint="Nombre de la Nota"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="181dp" />
+        tools:layout_editor_absoluteY="111dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="176dp"
+        android:layout_height="186dp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="221dp" />
 
 </android.support.constraint.ConstraintLayout>
